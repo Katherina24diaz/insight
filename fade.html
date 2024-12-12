@@ -159,6 +159,20 @@
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 
+/* Media Query for smaller screens like Chromebooks */
+@media (max-width: 900px) {
+  .image-box {
+    height: 250px; /* Adjust height for smaller screens */
+  }
+}
+
+/* Media Query for very small screens (e.g., tablets, mobile devices) */
+@media (max-width: 600px) {
+  .image-box {
+    height: 200px; /* Reduce height even further on small screens */
+  }
+}
+
     /* Center only one image box */
 .centered {
   display: block;
